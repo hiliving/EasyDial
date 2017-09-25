@@ -98,7 +98,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
                 intent.setAction("android.intent.action.CALL");
 
-                intent.setData(Uri.parse("tel:"+"15630087067"));
+                intent.setData(Uri.parse("tel:"+"15630587067"));
 
                 startActivity(intent);
                 break;
