@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/activity_main">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="黄勇"
+        android:gravity="right|bottom"
+        android:id="@+id/dial_bt_one"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="梅芳"
+        android:gravity="right|bottom"
+        android:id="@+id/dial_bt_two"
+        />
+</LinearLayout>
